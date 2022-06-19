@@ -1,0 +1,15 @@
+{% extends "html/index.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="signup-botom-header">movieposter</div>
+{% include 'html/navbar.html' %}
+<div class="error">
+    <a class="no-internet-logo">
+        <img src="{% static 'images/error.png' %}" class="logo" alt="No Image Found">
+    </a>
+    <div class="no-internet-message">404!? Oh,Geez Cheese Louise!</div>
+    <div class="no-internet-message">Please check the url! and enjoy movieposter</div>
+</div>
+{% endblock content %}
