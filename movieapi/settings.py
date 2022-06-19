@@ -153,7 +153,7 @@ MOVIE_DATA_API_KEY='e6f1e03ae70bc830f87e22213e3038a3'
 
 #Email generating email for user activation and password 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'jyothi.prakash@intainft.com'
-EMAIL_HOST_PASSWORD = 'jyothi@12'
+EMAIL_HOST = 'bhanureddy9919.gmail.com'
+EMAIL_HOST_USER = 'bhanureddy9919@gmail.com'
+EMAIL_HOST_PASSWORD = 'bhanu@12'
 EMAIL_PORT = 587
